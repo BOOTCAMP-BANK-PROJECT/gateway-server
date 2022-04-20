@@ -2,7 +2,7 @@ version: "3.8"
 
 services:
   app:
-    image: samuel14luis/spring-gateway-server:0.0.1-SNAPSHOT
+    image: samuel14luis/spring-gateway-server:1.0.0
     ports:
       - "8080:8080"
     restart: always

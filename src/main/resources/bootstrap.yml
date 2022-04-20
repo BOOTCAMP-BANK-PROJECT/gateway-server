@@ -8,3 +8,6 @@ spring:
       username: ${SECURITY_USERNAME:root}
       password: ${SECURITY_PASSWORD:1234}
 
+# Tomcat Server Port
+server:
+  port: 8080
