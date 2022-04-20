@@ -38,19 +38,19 @@
   </a>
 -->
 
-<h3 align="center">SERVICE DISCOVERY PROJECT WITH EUREKA</h3>
+<h3 align="center">GATEWAY SERVICE PROJECT</h3>
 
   <p align="center">
-    Service Discovery with Eureka Server for Bootcamp Bank Project!
+    Gateway Service with Spring Cloud for Bootcamp Bank Project!
     <br />
-    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/eureka-server"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/gateway-server"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/eureka-server">View Demo</a>
+    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/gateway-server">View Demo</a>
     ·
-    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/eureka-server/issues">Report Bug</a>
+    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/gateway-server/issues">Report Bug</a>
     ·
-    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/eureka-server/issues">Request Feature</a>
+    <a href="https://github.com/BOOTCAMP-BANK-PROJECT/gateway-server/issues">Request Feature</a>
   </p>
 </div>
 
@@ -87,7 +87,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-This is a Service Discovery with Eureka Server Project for Bootcamp Bank Project.
+This is a Gateway Service with Spring Cloud for Bootcamp Bank Project.
 
 
 ### Built With
@@ -125,7 +125,7 @@ _Below is an example of how you can instruct your audience on installing and set
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/BOOTCAMP-BANK-PROJECT/eureka-server.git
+   git clone https://github.com/BOOTCAMP-BANK-PROJECT/gateway-server.git
    ```
 2. Install Maven dependencies
    ```sh
@@ -139,6 +139,9 @@ _Below is an example of how you can instruct your audience on installing and set
    ./target/app.jar.original
     ```
 
+3. Copy the ```./config-server-example/gateway-server.yml``` file to your config-server-properties repository and customize it.
+   
+
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 
@@ -149,7 +152,7 @@ _Below is an example of how you can instruct your audience on installing and set
 To build a docker image of the jar in a docker image run the following command.
 
 ```
-   docker build -t my_user/spring-config-server:0.0.1-SNAPSHOT .
+   docker build -t my_user/spring-gateway-server:0.0.1-SNAPSHOT .
 ```
 <br />
 
@@ -184,7 +187,7 @@ docker-compose up -d
 To test if the service is working correctly, go the following URL (port 8089 by default):
 
 ```
-http://localhost:8089/
+http://localhost:8080/
 ```
 <br />
 
@@ -219,7 +222,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 [contributors-shield]: https://img.shields.io/github/contributors/BOOTCAMP-BANK-PROJECT/config-server.svg?style=for-the-badge
-[contributors-url]: https://github.com/BOOTCAMP-BANK-PROJECT/eureka-server/graphs/contributors
+[contributors-url]: https://github.com/BOOTCAMP-BANK-PROJECT/gateway-server/graphs/contributors
 <!--
 [forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
 [forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
@@ -229,7 +232,7 @@ Project Link: [https://github.com/your_username/repo_name](https://github.com/yo
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 -->
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/BOOTCAMP-BANK-PROJECT/eureka-server/blob/main/LICENSE
+[license-url]: https://github.com/BOOTCAMP-BANK-PROJECT/gateway-server/blob/main/LICENSE
 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/samuel14luis/
