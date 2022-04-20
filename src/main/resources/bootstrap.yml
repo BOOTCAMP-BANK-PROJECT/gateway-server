@@ -4,15 +4,7 @@ spring:
   cloud:
     config:
       label: main
-      uri: http://localhost:8081
-      username: root
-      password: 1234
-    gateway:
-      discovery:
-        locator:
-          enabled: true
-      routes:
-        - id: ms-personal-passive-saving-account
-          uri: lb://ms-personal-passive-saving-account # http://localhost:3000/
-          predicates:
-            - Path=/personal/passive/saving_account/**
+      uri: ${CONFIG_SERVER_URI:http://localhost:8081}
+      username: ${SECURITY_USERNAME:root}
+      password: ${SECURITY_PASSWORD:1234}
+
