@@ -1,8 +1,0 @@
-version: "3.8"
-
-services:
-  app:
-    environment:
-      CONFIG_SERVER_URI: "http://192.168.100.198:8081"
-      SECURITY_USERNAME: "root"
-      SECURITY_PASSWORD: "1234"
