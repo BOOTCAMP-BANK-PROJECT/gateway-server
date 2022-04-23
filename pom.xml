@@ -71,7 +71,7 @@
 					</descriptorRefs>
 					<archive>
 						<manifest>
-							<mainClass>com.bootcamp.eurekaserver.EurekaServerApplication</mainClass>
+							<mainClass>com.bootcamp.gatewayserver.GatewayServerApplication</mainClass>
 						</manifest>
 					</archive>
 				</configuration>

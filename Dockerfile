@@ -33,6 +33,6 @@ WORKDIR /usr/src
 COPY ["./target/app.jar", "/usr/src/"]
 #COPY --from=builder ["/usr/src/target/app.jar", "/usr/src/"] ( ctrl + / to uncomment in intellij )
 
-EXPOSE 8080
+EXPOSE 80
 
 CMD ["java","-jar", "/usr/src/app.jar"]
